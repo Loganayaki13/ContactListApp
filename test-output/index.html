@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Asus\eclipse-workspace\JAT-MiniProject-2-Version_1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 8 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)">contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)">contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004_ContactDisplayPageTest" class="method navigator-link" hash-for-method="contactDisplatTest(logutest131997@gmail.com, 12345678)">contactDisplatTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004_ContactDisplayPageTest" class="method navigator-link" hash-for-method="contactDisplatTest(logutest131997@gmail.com, 12345678)">contactDisplatTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002_LoginPageTest" class="method navigator-link" hash-for-method="loginTest(logutest131997@gmail.com, 123456)">loginTest(logutest131997@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002_LoginPageTest" class="method navigator-link" hash-for-method="loginTest(logutest131997@gmail.com, 123456)">loginTest(logutest131997@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003_ContactPageTest" class="method navigator-link" hash-for-method="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_006_ContactDeletePageTest" class="method navigator-link" hash-for-method="contactDeletingTest(logutest131997@gmail.com, 12345678)">contactDeletingTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_006_ContactDeletePageTest" class="method navigator-link" hash-for-method="contactDeletingTest(logutest131997@gmail.com, 12345678)">contactDeletingTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_005_ContactEditPageTest" class="method navigator-link" hash-for-method="contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)">contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_005_ContactEditPageTest" class="method navigator-link" hash-for-method="contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)">contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_007_LogoutPageTest" class="method navigator-link" hash-for-method="finalLogoutTest(logutest131997@gmail.com, 12345678)">finalLogoutTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_007_LogoutPageTest" class="method navigator-link" hash-for-method="finalLogoutTest(logutest131997@gmail.com, 12345678)">finalLogoutTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002_LoginPageTest" class="method navigator-link" hash-for-method="loginTest(logutest131997@gmail.com, 12345678)">loginTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002_LoginPageTest" class="method navigator-link" hash-for-method="loginTest(logutest131997@gmail.com, 12345678)">loginTest(logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)">signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)">signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_002_LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(logutest131997@gmail.com, 123456)">
+                  </a> <!-- loginTest(logutest131997@gmail.com, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 123456)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa51d36e0a2b72fe29bdc33ca62eb671, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50574/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa51d36e0a2b72fe29bdc33ca62eb671
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.LoginPage.clickLoginSubmit(LoginPage.java:43)
+	at test.TC_002_LoginPageTest.loginTest(TC_002_LoginPageTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(logutest131997@gmail.com, 123456)">
+                  </a> <!-- loginTest(logutest131997@gmail.com, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 123456)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f3ef715701759e7936291ac2fccf6048, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50887}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50887/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3ef715701759e7936291ac2fccf6048
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.LoginPage.clickLoginSubmit(LoginPage.java:43)
+	at test.TC_002_LoginPageTest.loginTest(TC_002_LoginPageTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_003_ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15e121045ec88bb5bcb8464d43f83e4d, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50654/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15e121045ec88bb5bcb8464d43f83e4d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+	at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72bcf403ab99454d793c57349ef66c46, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50675/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 72bcf403ab99454d793c57349ef66c46
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+	at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [77f75c3123f5d6ab6a9c5dc2a2769c09, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51065}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51065/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77f75c3123f5d6ab6a9c5dc2a2769c09
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+	at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add a New Contact&apos;)]&quot;}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [686486af58c18bdb7f9534fe7895af46, findElement {value=//button[contains(text(),&apos;Add a New Contact&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51027}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51027/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 686486af58c18bdb7f9534fe7895af46
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+	at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_004_ContactDisplayPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDisplatTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- contactDisplatTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">contactDisplatTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;Anna Mil&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ec53172f13b8dc708b39b7c12f47e29, findElement {value=//td[contains(text(),&apos;Anna Mil&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50719}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50719/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ec53172f13b8dc708b39b7c12f47e29
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at pages.ContactDisplayPage.contactValidation(ContactDisplayPage.java:32)
+	at test.TC_004_ContactDisplayPageTest.contactDisplatTest(TC_004_ContactDisplayPageTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDisplatTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- contactDisplatTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">contactDisplatTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;Anna Mil&apos;)]&quot;}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f5b9e791c2eae05b59e196728b49d5ce, findElement {value=//td[contains(text(),&apos;Anna Mil&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51138}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51138/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5b9e791c2eae05b59e196728b49d5ce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at pages.ContactDisplayPage.contactValidation(ContactDisplayPage.java:32)
+	at test.TC_004_ContactDisplayPageTest.contactDisplatTest(TC_004_ContactDisplayPageTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_001_SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)">
+                  </a> <!-- signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(Loganayaki, P, logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)">
+                  </a> <!-- signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(Loganayaki, P, logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_002_LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- loginTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- loginTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_007_LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="finalLogoutTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- finalLogoutTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">finalLogoutTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="finalLogoutTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- finalLogoutTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">finalLogoutTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_003_ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School St., Apt. 5, Washington, QC, 1234, Canada)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School St., Apt. 5, Washington, QC, 1234, Canada)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School St., Apt. 5, Washington, QC, 1234, Canada)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Apartment A, Anytown, KS, 12345, USA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)">
+                  </a> <!-- contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...) -->
+                  <span class="method-name">contactAddtionTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School St., Apt. 5, Washington, QC, 1234, Canada)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_006_ContactDeletePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDeletingTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- contactDeletingTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">contactDeletingTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDeletingTest(logutest131997@gmail.com, 12345678)">
+                  </a> <!-- contactDeletingTest(logutest131997@gmail.com, 12345678) -->
+                  <span class="method-name">contactDeletingTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_005_ContactEditPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)">
+                  </a> <!-- contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210) -->
+                  <span class="method-name">contactEditingTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)">
+                  </a> <!-- contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210) -->
+                  <span class="method-name">contactEditingTest</span>
+                  <span class="parameters">(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Asus\eclipse-workspace\JAT-MiniProject-2-Version_1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC_001_SignupTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_002_LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_003_ContactPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_004_ContactDisplayPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_005_ContactEditPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_006_ContactDeletePageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_007_LogoutPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC_001_SignupTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_002_LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_003_ContactPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_004_ContactDisplayPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_005_ContactEditPageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_006_ContactDeletePageTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_007_LogoutPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (7 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'finalLogoutTest')
+data.setCell(0, 2, 'test.TC_007_LogoutPageTest')
+data.setCell(0, 3, 28127);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'finalLogoutTest')
+data.setCell(1, 2, 'test.TC_007_LogoutPageTest')
+data.setCell(1, 3, 25778);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'contactEditingTest')
+data.setCell(2, 2, 'test.TC_005_ContactEditPageTest')
+data.setCell(2, 3, 24227);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'contactEditingTest')
+data.setCell(3, 2, 'test.TC_005_ContactEditPageTest')
+data.setCell(3, 3, 21551);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'contactAddtionTest')
+data.setCell(4, 2, 'test.TC_003_ContactPageTest')
+data.setCell(4, 3, 17555);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'contactAddtionTest')
+data.setCell(5, 2, 'test.TC_003_ContactPageTest')
+data.setCell(5, 3, 17246);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'contactAddtionTest')
+data.setCell(6, 2, 'test.TC_003_ContactPageTest')
+data.setCell(6, 3, 16952);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'contactAddtionTest')
+data.setCell(7, 2, 'test.TC_003_ContactPageTest')
+data.setCell(7, 3, 16766);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'contactDeletingTest')
+data.setCell(8, 2, 'test.TC_006_ContactDeletePageTest')
+data.setCell(8, 3, 15619);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'contactAddtionTest')
+data.setCell(9, 2, 'test.TC_003_ContactPageTest')
+data.setCell(9, 3, 14031);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'contactAddtionTest')
+data.setCell(10, 2, 'test.TC_003_ContactPageTest')
+data.setCell(10, 3, 13436);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'contactAddtionTest')
+data.setCell(11, 2, 'test.TC_003_ContactPageTest')
+data.setCell(11, 3, 12983);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'contactAddtionTest')
+data.setCell(12, 2, 'test.TC_003_ContactPageTest')
+data.setCell(12, 3, 12512);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'contactAddtionTest')
+data.setCell(13, 2, 'test.TC_003_ContactPageTest')
+data.setCell(13, 3, 11892);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'contactAddtionTest')
+data.setCell(14, 2, 'test.TC_003_ContactPageTest')
+data.setCell(14, 3, 11878);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'contactAddtionTest')
+data.setCell(15, 2, 'test.TC_003_ContactPageTest')
+data.setCell(15, 3, 11866);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'contactAddtionTest')
+data.setCell(16, 2, 'test.TC_003_ContactPageTest')
+data.setCell(16, 3, 11522);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'contactDeletingTest')
+data.setCell(17, 2, 'test.TC_006_ContactDeletePageTest')
+data.setCell(17, 3, 10992);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'contactDisplatTest')
+data.setCell(18, 2, 'test.TC_004_ContactDisplayPageTest')
+data.setCell(18, 3, 8057);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'contactDisplatTest')
+data.setCell(19, 2, 'test.TC_004_ContactDisplayPageTest')
+data.setCell(19, 3, 7796);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'signUpTest')
+data.setCell(20, 2, 'test.TC_001_SignupTest')
+data.setCell(20, 3, 6227);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signUpTest')
+data.setCell(21, 2, 'test.TC_001_SignupTest')
+data.setCell(21, 3, 6153);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'test.TC_002_LoginPageTest')
+data.setCell(22, 3, 5423);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginTest')
+data.setCell(23, 2, 'test.TC_002_LoginPageTest')
+data.setCell(23, 3, 5412);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginTest')
+data.setCell(24, 2, 'test.TC_002_LoginPageTest')
+data.setCell(24, 3, 4249);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'test.TC_002_LoginPageTest')
+data.setCell(25, 3, 2823);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_002_LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_007_LogoutPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_003_ContactPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_006_ContactDeletePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_004_ContactDisplayPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_005_ContactEditPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportInitialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">329 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">330 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">330 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_ContactDisplayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">331 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005_ContactEditPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">332 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006_ContactDeletePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007_LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">352 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">1318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">8271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">14510 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">14770 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">14770 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">14964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">22603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">26853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">27129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTest(logutest131997@gmail.com, 123456)</span>
+                <span class="method-start">35770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">41326 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">41572 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">41573 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">41766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">50327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">63020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)</span>
+                <span class="method-start">71875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">85314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">85739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)</span>
+                <span class="method-start">93356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">105249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">105566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)</span>
+                <span class="method-start">114107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">131509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">131776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">143394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">161049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">161214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">168323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">180191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_ContactDisplayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">180432 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">180432 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">180600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactDisplatTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">188149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">196297 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005_ContactEditPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">196544 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">196544 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">196680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</span>
+                <span class="method-start">204952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">229180 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006_ContactDeletePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">229427 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">229428 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">229577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactDeletingTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">237506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">253126 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007_LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">253346 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">253347 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(chrome)</span>
+                <span class="method-start">253499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">finalLogoutTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">262378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">290506 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290847 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_ContactDisplayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290847 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290847 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290847 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007_LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290848 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005_ContactEditPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290848 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">290848 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006_ContactDeletePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">data</span>
+                <span class="method-start">290848 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">290849 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">290987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(Loganayaki, P, logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">302221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">308375 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">308677 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">308677 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">308831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">318311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">321135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">327617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTest(logutest131997@gmail.com, 123456)</span>
+                <span class="method-start">338282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">343805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">344007 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">344007 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">344155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">353956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">365480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">365739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1990-10-25, amiller@fake.com, 8005554242, 13 School...)</span>
+                <span class="method-start">375207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">388191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">388423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, Amy, Miller, 1994-02-05, amiller@fake.com, 8005554242, 13 School...)</span>
+                <span class="method-start">397763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">409642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">409957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, , , 01-01-1970, jdoe@fake.com, 8005555555, 1 Main St., Apartment...)</span>
+                <span class="method-start">417389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">434429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">434666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 03-05-1980, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">442965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">459852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">460075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactAddtionTest(logutest131997@gmail.com, 12345678, John, Doe, 1990-01-01, jdoe@fake.com, 8005555555, 1 Main St., Ap...)</span>
+                <span class="method-start">468567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">482598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_ContactDisplayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">489161 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">tdetails</span>
+                <span class="method-start">489161 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">489242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactDisplatTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">497163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">505066 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005_ContactEditPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">505318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">505318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">505455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactEditingTest(logutest131997@gmail.com, 12345678, Anna, Mil, amiller@fake.com, 9876543210)</span>
+                <span class="method-start">516848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">538401 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006_ContactDeletePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">538719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">538719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">538807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactDeletingTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">549129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">560123 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007_LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">details</span>
+                <span class="method-start">560385 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDataDetails</span>
+                <span class="method-start">560385 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowserAndURL(edge)</span>
+                <span class="method-start">560494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">finalLogoutTest(logutest131997@gmail.com, 12345678)</span>
+                <span class="method-start">570387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">596167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeReport</span>
+                <span class="method-start">596491 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

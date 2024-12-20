@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="7" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T15:43:16 IST" name="Suite" finished-at="2024-12-19T15:45:30 IST" duration-ms="133855">
+    <groups>
+    </groups>
+    <test started-at="2024-12-19T15:43:16 IST" name="Chrome Test" finished-at="2024-12-19T15:45:30 IST" duration-ms="133855">
+      <class name="test.TC_002_LoginPageTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:15 IST" name="reportInitialization" finished-at="2024-12-19T15:43:16 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:16 IST" name="testDataDetails" finished-at="2024-12-19T15:43:16 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="tdetails()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:16 IST" name="tdetails" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdetails -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:16 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:43:19 IST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:19 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-19T15:43:20 IST" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:20 IST" name="closeBrowser" finished-at="2024-12-19T15:43:20 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:20 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:43:23 IST" duration-ms="2555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:23 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-19T15:43:28 IST" duration-ms="5271" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed00df88746f7ee9a27b37e2cc02949c, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59903/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed00df88746f7ee9a27b37e2cc02949c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed00df88746f7ee9a27b37e2cc02949c, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59903/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed00df88746f7ee9a27b37e2cc02949c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pages.LoginPage.clickLoginSubmit(LoginPage.java:43)
+at test.TC_002_LoginPageTest.loginTest(TC_002_LoginPageTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:43:28 IST" name="closeBrowser" finished-at="2024-12-19T15:43:28 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.TC_002_LoginPageTest@1ff4931d]" started-at="2024-12-19T15:45:30 IST" name="closeReport" finished-at="2024-12-19T15:45:30 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- test.TC_002_LoginPageTest -->
+      <class name="test.TC_005_ContactEditPageTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:44:38 IST" name="testDataDetails" finished-at="2024-12-19T15:44:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="details()[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:44:38 IST" name="details" finished-at="2024-12-19T15:44:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:44:38 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:44:41 IST" duration-ms="2580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactEditingTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:44:41 IST" name="contactEditingTest" data-provider="excelRead" finished-at="2024-12-19T15:44:55 IST" duration-ms="14464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anna]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[amiller@fake.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactEditingTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_005_ContactEditPageTest@b2c9a9c]" started-at="2024-12-19T15:44:55 IST" name="closeBrowser" finished-at="2024-12-19T15:44:55 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_005_ContactEditPageTest -->
+      <class name="test.TC_004_ContactDisplayPageTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:44:29 IST" name="testDataDetails" finished-at="2024-12-19T15:44:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="tdetails()[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:44:29 IST" name="tdetails" finished-at="2024-12-19T15:44:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdetails -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:44:29 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:44:31 IST" duration-ms="2627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactDisplatTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:44:31 IST" name="contactDisplatTest" data-provider="excelRead" finished-at="2024-12-19T15:44:38 IST" duration-ms="6381" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'Anna John')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b754355303650dcc2d592644e93518, findElement {value=//td[contains(text(),'Anna John')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60001/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25b754355303650dcc2d592644e93518]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'Anna John')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b754355303650dcc2d592644e93518, findElement {value=//td[contains(text(),'Anna John')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60001/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25b754355303650dcc2d592644e93518
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at pages.ContactDisplayPage.contactValidation(ContactDisplayPage.java:33)
+at test.TC_004_ContactDisplayPageTest.contactDisplatTest(TC_004_ContactDisplayPageTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDisplatTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_004_ContactDisplayPageTest@2362f559]" started-at="2024-12-19T15:44:38 IST" name="closeBrowser" finished-at="2024-12-19T15:44:38 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_004_ContactDisplayPageTest -->
+      <class name="test.TC_007_LogoutPageTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:45:06 IST" name="testDataDetails" finished-at="2024-12-19T15:45:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="details()[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:45:06 IST" name="details" finished-at="2024-12-19T15:45:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:45:06 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:45:09 IST" duration-ms="2559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="finalLogoutTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:45:09 IST" name="finalLogoutTest" data-provider="excelRead" finished-at="2024-12-19T15:45:29 IST" duration-ms="20441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalLogoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_007_LogoutPageTest@fa4c865]" started-at="2024-12-19T15:45:29 IST" name="closeBrowser" finished-at="2024-12-19T15:45:29 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_007_LogoutPageTest -->
+      <class name="test.TC_006_ContactDeletePageTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:44:55 IST" name="testDataDetails" finished-at="2024-12-19T15:44:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="details()[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:44:55 IST" name="details" finished-at="2024-12-19T15:44:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:44:55 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:44:58 IST" duration-ms="2676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactDeletingTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:44:58 IST" name="contactDeletingTest" data-provider="excelRead" finished-at="2024-12-19T15:45:06 IST" duration-ms="8249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDeletingTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_006_ContactDeletePageTest@4c178a76]" started-at="2024-12-19T15:45:06 IST" name="closeBrowser" finished-at="2024-12-19T15:45:06 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_006_ContactDeletePageTest -->
+      <class name="test.TC_003_ContactPageTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:16 IST" name="data" finished-at="2024-12-19T15:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="testDataDetails()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:28 IST" name="testDataDetails" finished-at="2024-12-19T15:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDetails -->
+        <test-method is-config="true" signature="tdetails()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:28 IST" name="tdetails" finished-at="2024-12-19T15:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdetails -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:29 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:43:31 IST" duration-ms="2793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactAddtionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:31 IST" name="contactAddtionTest" data-provider="excelRead" finished-at="2024-12-19T15:43:39 IST" duration-ms="7251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jdoe@fake.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8005555555]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 Main St.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apartment A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Anytown]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[KS]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAddtionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:39 IST" name="closeBrowser" finished-at="2024-12-19T15:43:39 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:39 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:43:41 IST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactAddtionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:41 IST" name="contactAddtionTest" data-provider="excelRead" finished-at="2024-12-19T15:43:48 IST" duration-ms="7205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Miller]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-10-25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amiller@fake.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8005554242]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[13 School St.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt. 5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[QC]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAddtionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:48 IST" name="closeBrowser" finished-at="2024-12-19T15:43:49 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:49 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:43:51 IST" duration-ms="2695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactAddtionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:51 IST" name="contactAddtionTest" data-provider="excelRead" finished-at="2024-12-19T15:43:59 IST" duration-ms="7234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Miller]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1994-02-05]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amiller@fake.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8005554242]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[13 School St.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt. 5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[QC]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAddtionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:59 IST" name="closeBrowser" finished-at="2024-12-19T15:43:59 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:43:59 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:44:01 IST" duration-ms="2561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactAddtionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:44:01 IST" name="contactAddtionTest" data-provider="excelRead" finished-at="2024-12-19T15:44:13 IST" duration-ms="12256" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-01-1970]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jdoe@fake.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8005555555]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 Main St.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apartment A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Anytown]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[KS]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44564368e18a991ebd3881df7713e8be, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59967/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44564368e18a991ebd3881df7713e8be]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44564368e18a991ebd3881df7713e8be, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59967/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44564368e18a991ebd3881df7713e8be
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAddtionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:44:14 IST" name="closeBrowser" finished-at="2024-12-19T15:44:14 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserAndURL(java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:44:14 IST" name="launchBrowserAndURL" finished-at="2024-12-19T15:44:16 IST" duration-ms="2609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="contactAddtionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:44:16 IST" name="contactAddtionTest" data-provider="excelRead" finished-at="2024-12-19T15:44:29 IST" duration-ms="12289" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[03-05-1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jdoe@fake.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8005555555]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 Main St.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apartment A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Anytown]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[KS]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31a0da8f7734a7d4fd2dd253d44b84d8, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59984/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31a0da8f7734a7d4fd2dd253d44b84d8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add a New Contact')]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31a0da8f7734a7d4fd2dd253d44b84d8, findElement {value=//button[contains(text(),'Add a New Contact')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59984/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31a0da8f7734a7d4fd2dd253d44b84d8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pages.ContactPage.contactAddSubmitButton(ContactPage.java:124)
+at test.TC_003_ContactPageTest.contactAddtionTest(TC_003_ContactPageTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAddtionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ContactPageTest@8297b3a]" started-at="2024-12-19T15:44:29 IST" name="closeBrowser" finished-at="2024-12-19T15:44:29 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003_ContactPageTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
